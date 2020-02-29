@@ -12,22 +12,6 @@ class Calculator_Test {
 	
 	}
 	
-	public void calculatorTestAddFail()
-	{
-		assertEquals("Error in Addition operation()",0,Software.Calculator.add(1, 2));
-	}
 	
-	public void calculatorTestSubPass()
-	{
-		assertEquals("Error in Subtraction operation()",1,Software.Calculator.add(1, 2));
-		assertEquals("Error in Subtraction operation()",-1,Software.Calculator.add(-1, -2));
-		assertEquals("Error in Subtraction operation()",0,Software.Calculator.add(2, 1));
-	
-	}
-	
-	public void calculatorSubFail()
-	{
-		assertEquals("Error in Subtraction operation()",0,Software.Calculator.add(2, 1));
-	}
 
 }
