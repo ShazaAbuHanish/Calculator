@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 - <project default="compile">
   <property name="src.java.dir" location="./src/Software/Calculator" /> 
   <property name="src.test.dir" location="./Test_HW2/Calculator_Test" /> 
